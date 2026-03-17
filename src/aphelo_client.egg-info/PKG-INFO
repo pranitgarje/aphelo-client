@@ -1,0 +1,36 @@
+Metadata-Version: 2.4
+Name: aphelo-client
+Version: 0.1.0
+Summary: Official Python client for the Aphelo high-performance in-memory database.
+Author: Pranit Garje
+Project-URL: Homepage, https://github.com/pranitgarje/aphelo
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Aphelo Client
+
+The official Python SDK for **Aphelo**, a high-performance, event-driven, C++ in-memory caching database.
+
+## Installation
+```bash
+pip install aphelo-client
+
+## Quickstart
+
+Make sure your Aphelo database is running via Docker:
+
+```bash
+docker run -d -p 1234:1234 pranitgarje/aphelo-db
+```
+
+Then, connect to it in Python:
+
+```python
+from aphelo import ApheloClient
+
+db = ApheloClient()
+db.set("hello", "world")
+print(db.get("hello"))

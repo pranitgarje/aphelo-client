@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/aphelo/__init__.py
+src/aphelo_client.egg-info/PKG-INFO
+src/aphelo_client.egg-info/SOURCES.txt
+src/aphelo_client.egg-info/dependency_links.txt
+src/aphelo_client.egg-info/top_level.txt
