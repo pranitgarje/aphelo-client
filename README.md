@@ -2,7 +2,7 @@
 
 ![PyPI](https://img.shields.io/pypi/v/aphelo-client)
 ![Python](https://img.shields.io/pypi/pyversions/aphelo-client)
-![License](https://img.shields.io/github/license/pranitgarje/aphelo-client)
+<!-- ![License](https://img.shields.io/github/license/pranitgarje/aphelo-client) -->
 <!-- ![Downloads](https://img.shields.io/pypi/dm/aphelo-client) -->
 
 The official **Python SDK** for **Aphelo**, a blazing-fast, high-performance **in-memory caching database written in C++**.
